@@ -30,7 +30,7 @@ resource "azurerm_network_security_group" "catapp-sg" {
     protocol                   = "Tcp"
     source_port_range          = "*"
     destination_port_range     = "80"
-    source_address_prefix      = "*"
+    source_address_prefix      = "23.99.230.117"
     destination_address_prefix = "*"
   }
 
